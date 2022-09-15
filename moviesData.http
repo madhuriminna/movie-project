@@ -1,0 +1,33 @@
+
+GET http://localhost:3000/movies/
+###
+
+POST http://localhost:3000/movies/
+
+{
+    "directorId":6,
+    "movieName":"Jurassic Park",
+    "leadActor":"jeff Goldblum"
+}
+###
+
+GET http://localhost:3000/movies/46/
+###
+
+PUT http://localhost:3000/movies/120/
+
+{
+    "directorId":24,
+    "movieName":"Thor",
+    "leadActor":"Christopher Heamsworth"
+}
+###
+
+DELETE http://localhost:3000/movies/124/
+###
+
+GET http://localhost:3000/directors/
+###
+
+
+GET http://localhost:3000/directors/16/movies/
